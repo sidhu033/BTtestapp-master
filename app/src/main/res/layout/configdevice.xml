@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/txtdevice1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Configure Left Hand Device "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/spinerdevice1"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@+id/txtdevice1">
+        </android.support.v7.widget.AppCompatSpinner>
+
+
+
+        <TextView
+            android:id="@+id/txtdevice2"
+            android:layout_below="@+id/spinerdevice1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Configure Right Hand Device "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/spinerdevice2"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@+id/txtdevice2">
+        </android.support.v7.widget.AppCompatSpinner>
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">BTTESTAPP</string>
+
+    <string name="sign_in">Sign In</string>
+    <string name="right">Right</string>
+    <string name="left">Left</string>
+    <string name="sys">Sys : </string>
+    <string name="dia">DIA (mmhg):</string>
+    <string name="Treatment_cycle">Treatment Cycle (20 Minutes)</string>
+    <string name="pulse">pulse</string>
+    <string name="cycle1_left">Cycle 1 (5m): Pending</string>
+    <string name="cycle2_left">Cycle 2 (5m): Pending</string>
+    <string name="cycle1_right">Cycle 1 (5m): Pending</string>
+    <string name="cycle2_right">Cycle 2 (5m): Pending</string>
+    <string name="treatment_readings_text">Treatment Readings</string>
+
+    <string name="redoxerttext1">Your Redoxer Treatment for Today is Done.</string>
+    <string name="redoxerttext2">To View Your Previous result history, press the Logs Button Below. </string>
+
+
+</resources>

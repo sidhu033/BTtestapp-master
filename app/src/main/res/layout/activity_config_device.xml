@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ConfigDevice">
+
+    <!--Toolbar-->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarconfid"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="#0d141c"
+        app:contentScrim="#0d141c">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/txtuh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center_horizontal"
+                android:text="Configure Devices"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:fontFamily="@font/helveticabold"
+                />
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/txtdevice1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Configure Left Hand Device "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/spinerdevice1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/txtdevice1">
+        </android.support.v7.widget.AppCompatSpinner>
+
+
+
+        <TextView
+            android:id="@+id/txtdevice2"
+            android:layout_below="@+id/spinerdevice1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Configure Right Hand Device "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/spinerdevice2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/txtdevice2">
+        </android.support.v7.widget.AppCompatSpinner>
+
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinerdevice2"
+            android:background="@color/yellow"
+            android:text="submit"/>
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
